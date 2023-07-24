@@ -26,15 +26,16 @@ export default function Home({ results }: any) {
         .container {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
-          background-color: #12171b;
-          padding: 10px;
-          gap: 10px;
+          background-color: #131b21;
+          padding: 20px;
+          gap: 20px;
         }
         .grid-item {
           display: flex;
           flex-direction: column;
           * {
             padding: 2px;
+            color: white;
           }
           .photo {
             width: 100%;
