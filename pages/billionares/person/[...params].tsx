@@ -39,7 +39,7 @@ export default function Person({ results }: any) {
   };
   return (
     <div className="background">
-      <Link href={"/"}>
+      <Link href={"/billionares"}>
         <div className="exitIcon">🔙</div>
       </Link>
       <div className="upContainer">
